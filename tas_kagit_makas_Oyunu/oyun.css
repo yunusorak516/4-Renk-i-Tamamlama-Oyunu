@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#game-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#user-choise,
+#computer-choise,
+#result {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Renkler */
+#user-choise {
+    background-color: #ddff00;
+}
+
+#computer-choise {
+    background-color: #ff8000;
+}
+
+#result {
+    background-color: #52f3ff;
+}
+
+button {
+    background-color: #ff00b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hover efekti */
+button:hover {
+    background-color: #59ff00;
+}
