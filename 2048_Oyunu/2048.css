@@ -19,18 +19,18 @@ hr {
     flex-wrap: wrap;
 }
 
+/* Karelerin genel stil özellikleri */
 .tile {
-    width: 90px;
-    height: 90px;
-    border: 5px solid #bbada0;
+    width: 90px; /* Kare genişliği */
+    height: 90px; /* Kare yüksekliği */
+    border: 5px solid #bbada0; /* Kenarlık rengi ve kalınlığı */
 
-    font-size: 40px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 40px; /* Yazı boyutu */
+    font-weight: bold; /* Kalın yazı tipi */
+    display: flex; /* İçerik düzeni: flex */
+    justify-content: center; /* Yatayda merkezi hizalama */
+    align-items: center; /* Dikeyde merkezi hizalama */
 }
-
 
 
 .x2 {
