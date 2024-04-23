@@ -1,0 +1,5 @@
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    /* Metinler için yazı tipini belirler; öncelikle 'Courier New', sonra Courier ve en son monospace kullanılır */
+    text-align: center; /* Metinleri ortalamak için metin hizalaması ayarlar */
+}

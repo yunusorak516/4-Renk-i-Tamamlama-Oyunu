@@ -1,0 +1,23 @@
+body {
+    background: url("./background.jpg") no-repeat center center fixed; /* Sayfa arka planı olarak "background.jpg" resmini kullan, resmi tekrar etme, ortala ve sabitle */
+    background-size: cover; /* Arka plan resmini sayfa boyutuna sığacak şekilde boyutlandır */
+    font-family: Arial, Helvetica, sans-serif; /* Metinler için yazı tipi olarak Arial, Helvetica ve sans-serif kullan */
+    color: white; /* Metin rengini beyaz yap */
+    text-align: center; /* Metinleri ortala */
+}
+
+#board {
+    width: 450px; /* Tahta genişliği 450 piksel */
+    height: 450px; /* Tahta yüksekliği 450 piksel */
+    background-color: lightblue; /* Tahta arka plan rengi olarak açık mavi kullan */
+    border: 5px solid slategray; /* Kenarlık olarak 5 piksel kalınlığında ve arduvaz mavisi renginde bir çerçeve oluştur */
+    border-radius: 10px; /* Kenarlık köşelerini yuvarla, 10 piksellik bir yarıçap kullan */
+    margin: 0 auto; /* Tahtayı sayfanın ortasına hizala */
+    display: flex; /* İçerikleri yatay olarak sırala */
+    flex-wrap: wrap; /* İçerikler sığmadığında bir sonraki satıra geç */
+}
+
+#board img {
+    width: 50px; /* Tahtadaki resimlerin genişliği 50 piksel */
+    height: 50px; /* Tahtadaki resimlerin yüksekliği 50 piksel */
+}
